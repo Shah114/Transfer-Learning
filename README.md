@@ -28,4 +28,13 @@ Transfer Learning is a machine learning technique where a pre-trained model, dev
 <br/>
 
 **Getting Started with Transfer Learning** <br/>
-
+**Prerequisites** <br/>
+* Basic understanding of deep learning and neural networks.
+* Familiarity with a deep learning framework (e.g., TensorFlow, PyTorch). <br/>
+**Steps** <br/>
+1. Choose a Pre-trained Model: Select a model pre-trained on a similar domain. For image tasks, consider models trained on ImageNet; for NLP, consider models like BERT or GPT.
+2. Prepare the Data: Ensure the data for the target task is well-labeled and preprocessed.
+3. Modify the Model: Depending on your task, decide whether to use the model as a feature extractor or to fine-tune it.
+4. Train the Model: Use your labeled data to train the model, fine-tuning the layers as necessary.
+5. Evaluate and Refine: Assess the model's performance and make adjustments to improve accuracy. <br/>
+<br/>
