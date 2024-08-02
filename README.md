@@ -20,5 +20,12 @@ Transfer Learning is a machine learning technique where a pre-trained model, dev
 3. Target Task Training: The transferred model is trained on the target task's data. This training can involve fine-tuning the pre-trained layers and training new layers added for the specific task. <br/>
 <br/>
 
-Applications of Transfer Learning
+**Applications of Transfer Learning** <br/>
+1. Image Classification: Pre-trained models like VGG, ResNet, and Inception are widely used for tasks such as object detection and image segmentation.
+2. Natural Language Processing (NLP): Models like BERT, GPT, and Transformer-based architectures are pre-trained on vast text corpora and fine-tuned for tasks like sentiment analysis, translation, and question-answering.
+3. Speech Recognition: Transfer Learning is used to adapt models trained on general speech data to recognize specific dialects or accents.
+4. Medical Imaging: Pre-trained models are used to identify diseases from medical images, where labeled data is often scarce. <br/>
+<br/>
+
+**Getting Started with Transfer Learning** <br/>
 
