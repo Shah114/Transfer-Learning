@@ -13,3 +13,12 @@ Transfer Learning is a machine learning technique where a pre-trained model, dev
 <br/>
 
 **How Does Transfer Learning Work?** <br/>
+1. Pre-training: A model is first trained on a large, diverse dataset for a specific task. For instance, a neural network can be trained on ImageNet, a large dataset of images, to recognize general image features.
+2. Transfer: The pre-trained model's weights and architecture are transferred to a new model tailored for the target task. Depending on the similarity between the source and target tasks, different levels of the model can be reused:
+* Feature Extraction: Only the model's base layers are used to extract features, while the top layers are replaced and retrained for the target task.
+* Fine-Tuning: The entire pre-trained model is used, but the last few layers are retrained or fine-tuned with a smaller learning rate to adjust to the new task.
+3. Target Task Training: The transferred model is trained on the target task's data. This training can involve fine-tuning the pre-trained layers and training new layers added for the specific task. <br/>
+<br/>
+
+Applications of Transfer Learning
+
